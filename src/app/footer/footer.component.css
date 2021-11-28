@@ -1,0 +1,7 @@
+#pieDeFooter {
+  padding: 20px;
+  background-image: linear-gradient(to right, #080f4b, blacK);
+  color:rgb(233, 227, 227);
+  font-size: 20px;
+  text-align: center;
+}
