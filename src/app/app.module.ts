@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
+import { AbonoComponent } from './abono/abono.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { RegistroComponent } from './registro/registro.component';
     HeaderComponent,
     CarritoComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    AbonoComponent
   ],
   providers: [],
   bootstrap: [ AppComponent ]
