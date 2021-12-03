@@ -61,7 +61,7 @@ header nav ul li a:hover {
   border-style: dotted;
 }
 /*responsive 1*/
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1240px) {
   .topnav {
     display: flex;
     flex-direction: column;

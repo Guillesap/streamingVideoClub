@@ -91,7 +91,7 @@ export class CarritoComponent implements OnInit {
     }
   //boton finalizar compra
   $('#finalizarComprar').on('click', () => {
-      alert("Gracias por su compra. Su pedido está en preparación");
+      alert("Gracias por tu compra. A disfrutar tu Abono!");
       });
 
   }
