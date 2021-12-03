@@ -8,6 +8,9 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
 import { PeliculasComponent } from './peliculas/peliculas.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { CarritoComponent } from './carrito/carrito.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
   imports: [
@@ -20,7 +23,10 @@ import { HeaderComponent } from './header/header.component';
     HeroFormComponent,
     PeliculasComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarritoComponent,
+    LoginComponent,
+    RegistroComponent
   ],
   providers: [],
   bootstrap: [ AppComponent ]

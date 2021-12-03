@@ -8,7 +8,7 @@
   padding: 10mm;
   background-color: rgb(82, 8, 8);
   width: 35rem;
-  margin: 15px;
+  margin: 10px;
 }
 
 #card-body {
@@ -31,4 +31,8 @@ h2 {
   text-align: center;
 }
 
+.dAtos {
+  color: rgb(139, 202, 22);
+  display: none;
 
+}

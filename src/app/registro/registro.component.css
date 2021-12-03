@@ -1,0 +1,20 @@
+.lOgeate {
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  margin: 0 auto;
+}
+.dAtos {
+  display: none;
+  color: red;
+  text-align: center;
+  font-size: 25px;
+}
+
+.lOg {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(109, 11, 11);
+  color: gold;
+}
