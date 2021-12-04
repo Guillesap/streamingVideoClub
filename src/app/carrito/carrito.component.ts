@@ -31,6 +31,7 @@ export class CarritoComponent implements OnInit {
           },
       ];
     }
+
   //boton finalizar compra
   $('#finalizarComprar').on('click', () => {
       alert("Gracias por tu compra. A disfrutar tu Abono!");

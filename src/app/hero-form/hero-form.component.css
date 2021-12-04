@@ -4,7 +4,13 @@ body {
 }
 h1 {
   color: gold;
+  text-align: center;
 }
 h2 {
     color: whitesmoke;
+}
+.fotosContacto {
+  display: flex;
+  flex: row;
+  justify-content: center;
 }
