@@ -1,0 +1,31 @@
+<h1>Próximos Estrenos</h1>
+
+<div id="NovedadeS"></div>
+<div class="container">
+  <div class="row ">
+      <div class="col-mx-auto">
+          <table class='table table-bordered '>
+              <thead>
+                  <tr class="bg-success text-white">
+                      <th>Número</th>
+                      <th>Portada</th>
+                      <th>Titulo</th>
+                      <th>Año</th>
+                      <th>Precio</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let e of estrenos; index as no">
+                      <td>{{no+1}}</td>
+                      <td><img src="{{e.numero}}" class="img-fluid" width="100"></td>
+                      <td>{{e.name}}</td>
+                      <td>{{e.id}}</td>
+                      <td>{{e.price}}</td>
+
+                  </tr>
+              </tbody>
+          </table>
+
+      </div>
+  </div>
+</div>
